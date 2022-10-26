@@ -12,7 +12,8 @@ export class RussianPost implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Russian Post Node',
 		name: 'RussianPost',
-		group: ['transform'],
+		icon: 'file:icon.svg',
+		group: ['input'],
 		version: 1,
 		description: 'Russian Post Node',
 		defaults: {
